@@ -3,7 +3,7 @@
   <folder name="Strategy" id="ec810678-a5f6-4859-b09e-875f5cd4ea07" type="strategy"/>
   <folder name="Business" id="08761501-6b90-4d3c-86eb-cdb87ae08d55" type="business">
     <element xsi:type="archimate:BusinessActor" name="Cliente Particular" id="a3c02fa5-b5a2-4127-a967-cdf675be0a6b"/>
-    <element xsi:type="archimate:Product" name="Descrição do Produto de aluguer BICA" id="b779d28a-a8b5-444b-8ec3-32eabd8e257f"/>
+    <element xsi:type="archimate:Product" name="Descrição do Produto de aluguer BICA a cliente particular" id="b779d28a-a8b5-444b-8ec3-32eabd8e257f"/>
     <element xsi:type="archimate:BusinessActor" name="Serviço de Registo de clientes particulares" id="b7ced581-0d6b-4ad3-ae44-9b8b168389bf"/>
     <element xsi:type="archimate:BusinessActor" name="Serviço de Informações sobre o serviço particular" id="dadf33a3-5b4f-42cb-8f0f-b7fba9140a59"/>
     <element xsi:type="archimate:BusinessActor" name="Serviço de Aquisição e Alteração das condições do serviço" id="1d246ffd-2971-4d10-8d0f-40bea6a9cb65"/>
@@ -85,6 +85,15 @@
     <element xsi:type="archimate:ApplicationService" name="Escolha/Alteração da forma de taxação" id="0b68e722-3ed9-4944-ac3d-2bd0eedf60f4"/>
     <element xsi:type="archimate:ApplicationService" name="Escolha da Modalidade de pagamentos" id="d62bd082-23bb-419a-8c3f-60f184b7e0bd"/>
     <element xsi:type="archimate:ApplicationService" name="Registo da BICA" id="1818a358-2f5a-43ff-9d04-dfce185cdbdb"/>
+    <element xsi:type="archimate:ApplicationService" name="Application Service" id="7e015789-1474-41ee-a6a4-c04b069980ea"/>
+    <element xsi:type="archimate:ApplicationService" name="Consulta de Histórico" id="3e814e01-c81a-4d50-a049-86f4b865361e"/>
+    <element xsi:type="archimate:ApplicationService" name="Registo cliente" id="25611bfd-6114-476f-a4e6-44cd58bca7cd"/>
+    <element xsi:type="archimate:ApplicationService" name="Avaliação da Experiência" id="81101ff1-d86f-4c7f-a660-cf8208b1a2af"/>
+    <element xsi:type="archimate:ApplicationService" name="Escolha da Modalidade de pagamentos" id="cddf6f26-4525-4286-a4b2-01ed48b4fe04"/>
+    <element xsi:type="archimate:ApplicationService" name="Escolha/Alteração da forma de taxação" id="b7f0b9f2-6403-420b-8260-2d3b25c9147e"/>
+    <element xsi:type="archimate:ApplicationService" name="Levantamento" id="af10288f-40e3-4614-91a9-b599ef2cacc4"/>
+    <element xsi:type="archimate:ApplicationService" name="Devolução" id="506debd8-bc8d-47c1-8129-7ae2a0ce29a1"/>
+    <element xsi:type="archimate:ApplicationService" name="Pagamento" id="508316b9-e8ad-46e4-8afa-7bd7d46de23f"/>
   </folder>
   <folder name="Technology &amp; Physical" id="33066e5a-4a2e-4561-94f9-27e2b9c59cf1" type="technology"/>
   <folder name="Motivation" id="8ad5ba64-5e28-4b03-8ed1-b5ba961114f8" type="motivation"/>
@@ -408,6 +417,30 @@
         <child xsi:type="archimate:DiagramObject" id="42846232-e113-42dc-8003-33ecfafecab9" targetConnections="c442c0c0-3d30-4a4b-8cfd-773aa6954291 e92b9853-01c2-4ab5-84cc-629ea86d3205" archimateElement="b9075648-3998-450b-88b7-592cb250c9ec">
           <bounds x="347" y="707" width="120" height="55"/>
         </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0d55596f-879b-4b83-b393-e256b70a3fad" archimateElement="3e814e01-c81a-4d50-a049-86f4b865361e">
+        <bounds x="461" y="583" width="168" height="25"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="026adf7d-e058-470d-8fac-a5b76ca64e55" archimateElement="81101ff1-d86f-4c7f-a660-cf8208b1a2af">
+        <bounds x="438" y="623" width="196" height="29"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8a8373f1-2de5-4f88-ab5f-bc91977468f4" archimateElement="cddf6f26-4525-4286-a4b2-01ed48b4fe04">
+        <bounds x="401" y="700" width="277" height="31"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a6f62eec-82b6-4b33-bb70-0a232b4f842a" archimateElement="b7f0b9f2-6403-420b-8260-2d3b25c9147e">
+        <bounds x="412" y="659" width="266" height="30"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="bc520cac-cb9a-4536-a581-91b3359b2bad" archimateElement="af10288f-40e3-4614-91a9-b599ef2cacc4">
+        <bounds x="480" y="551" width="120" height="25"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1d96befe-d8e5-4416-a999-472be37c7c90" archimateElement="506debd8-bc8d-47c1-8129-7ae2a0ce29a1">
+        <bounds x="484" y="517" width="121" height="24"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="370cd3ad-cd05-4e80-8988-bc11310ff113" archimateElement="508316b9-e8ad-46e4-8afa-7bd7d46de23f">
+        <bounds x="480" y="481" width="120" height="26"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b0850daf-5ed3-49e9-80f2-80e89b954696" archimateElement="25611bfd-6114-476f-a4e6-44cd58bca7cd">
+        <bounds x="474" y="398" width="132" height="32"/>
       </child>
     </element>
   </folder>

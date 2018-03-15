@@ -39,7 +39,7 @@
     <element xsi:type="archimate:BusinessActor" name="Coordenador (copy) (copy)" id="02251939-318f-46c7-aa58-c9604dbb5973"/>
     <element xsi:type="archimate:BusinessActor" name="Funcionários (copy) (copy)" id="3c6b8822-4807-450b-8a74-99d10614b71d"/>
     <element xsi:type="archimate:BusinessActor" name="Coordenador (copy) (copy)" id="fbacfa2c-01d5-40c5-b5d9-98686516b652"/>
-    <element xsi:type="archimate:BusinessActor" name="Funcionários (copy) (copy)" id="6b53694e-87f3-45ed-93fd-cc03e2804c91"/>
+    <element xsi:type="archimate:BusinessActor" name="Funcionário (copy)" id="6b53694e-87f3-45ed-93fd-cc03e2804c91"/>
     <element xsi:type="archimate:BusinessActor" name="Coordenador (copy) (copy)" id="bb915f59-e75f-448b-bbf9-fff164391915"/>
     <element xsi:type="archimate:BusinessRole" name=" Operação da empresa ao nível das funções administrativas, financeiras, recursos humanos" id="6b233515-5609-4459-8587-eed9690ce504"/>
     <element xsi:type="archimate:BusinessRole" name="Responsabilidade direta dos sistemas BAIK-ERP, BAIKTAXAÇÃO" id="1da60a60-29ac-4030-8083-2deb72ddb7f0"/>
@@ -248,18 +248,10 @@
           <bounds x="372" y="216" width="792" height="348"/>
           <sourceConnection xsi:type="archimate:Connection" id="c55a8558-23cf-45c5-a93b-ddeaf505bf7f" source="09547751-020b-4217-b389-adf3a49e0401" target="2bb99765-8b7d-4e49-ae2d-9cdb20d84938" archimateRelationship="aa67bdf4-681c-49bb-85e6-72fe80ff26b8"/>
           <sourceConnection xsi:type="archimate:Connection" id="31f21beb-f247-4c6d-8c73-af1351cc55ec" source="09547751-020b-4217-b389-adf3a49e0401" target="a38baf11-f250-417a-b293-fda2aa7cc2d0" archimateRelationship="7c7b325b-7730-4bc1-9345-63ad257e1e94"/>
-          <sourceConnection xsi:type="archimate:Connection" id="04026da5-cf92-4f6e-a068-cd4d138fa684" source="09547751-020b-4217-b389-adf3a49e0401" target="f6c67095-a1aa-40c6-8ded-64c6f30689bf" archimateRelationship="89d42cf7-6447-400d-8c1e-a4745adac5f2"/>
-          <sourceConnection xsi:type="archimate:Connection" id="9b8993db-371f-42e1-aa52-41493ce2cace" source="09547751-020b-4217-b389-adf3a49e0401" target="f4bef0ac-bd48-4ba8-b5cc-f977dce984a1" archimateRelationship="50ac58ad-0d23-40b7-b6c2-47a41d914ba5"/>
           <sourceConnection xsi:type="archimate:Connection" id="0de08294-bc0c-4131-a45d-92dfd67c62fa" source="09547751-020b-4217-b389-adf3a49e0401" target="e9bd1f27-f009-4136-8384-2d276ac31186" archimateRelationship="9aa77fa2-7180-4465-950a-18f839518066"/>
           <sourceConnection xsi:type="archimate:Connection" id="f41ad5cc-c7b5-48a3-9290-73c194350e24" source="09547751-020b-4217-b389-adf3a49e0401" target="f670c8d0-f090-48ee-8a07-ee3ddb8b7909" archimateRelationship="66f17e07-d6ab-49a0-9e8d-bbb5d63a4bfe"/>
-          <child xsi:type="archimate:DiagramObject" id="f4bef0ac-bd48-4ba8-b5cc-f977dce984a1" targetConnections="9b8993db-371f-42e1-aa52-41493ce2cace" archimateElement="bb915f59-e75f-448b-bbf9-fff164391915">
-            <bounds x="432" y="24" width="116" height="26"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="f6c67095-a1aa-40c6-8ded-64c6f30689bf" targetConnections="04026da5-cf92-4f6e-a068-cd4d138fa684" archimateElement="6b53694e-87f3-45ed-93fd-cc03e2804c91">
-            <bounds x="84" y="23" width="120" height="27"/>
-          </child>
           <child xsi:type="archimate:DiagramObject" id="a38baf11-f250-417a-b293-fda2aa7cc2d0" targetConnections="31f21beb-f247-4c6d-8c73-af1351cc55ec" archimateElement="2ceecb6e-91ef-4e45-b7a9-03b08a64e130">
-            <bounds x="12" y="84" width="264" height="73"/>
+            <bounds x="12" y="60" width="264" height="73"/>
             <sourceConnection xsi:type="archimate:Connection" id="40cc95b0-ea1c-4417-9d9a-07e1bae59a93" source="a38baf11-f250-417a-b293-fda2aa7cc2d0" target="0e0428e5-ea10-47e2-97f5-c68ebff5994b" archimateRelationship="a8bb8e15-8b9a-4314-a36d-f58dbd67a6c2"/>
             <sourceConnection xsi:type="archimate:Connection" id="9e1e8a81-c43b-4e5c-b232-e7c7e1b3103c" source="a38baf11-f250-417a-b293-fda2aa7cc2d0" target="f96a2031-2500-4724-8318-88b3f85fd854" archimateRelationship="b5fb866c-ad27-40c2-95f0-1585ae677c72"/>
             <sourceConnection xsi:type="archimate:Connection" id="42d9148b-0302-47a0-a4aa-1ae81c22239c" source="a38baf11-f250-417a-b293-fda2aa7cc2d0" target="13b00201-86f5-44a9-b51c-57993945c83b" archimateRelationship="25ff601a-9e05-427b-bb1d-2f1e0e40ca73"/>
